@@ -18,20 +18,26 @@ The game ends when you hit into another car or a pedestrian, and your final scor
 
 ## Files:
 
-driver.py  
-&nbsp;&nbsp;&nbsp;&nbsp;This file contains the GUI menu that allows you to choose the dimensions of the game. The three options are 960 x 540 (16/9 aspect ratio), 1024 x 768 (4/3 aspect ratio), and 1280 x 800 (16/10 aspect ratio). When one of the dimension boxes is clicked, recklessRoad.py is called from the command prompt using the dimensions as arguments.  
-recklessRoad.py  
+driver.py
+
+&nbsp;&nbsp;&nbsp;&nbsp;This file contains the GUI menu that allows you to choose the dimensions of the game. The three options are 960 x 540 (16/9 aspect ratio), 1024 x 768 (4/3 aspect ratio), and 1280 x 800 (16/10 aspect ratio). When one of the dimension boxes is clicked, recklessRoad.py is called from the command prompt using the dimensions as arguments.
+
+recklessRoad.py
+
 &nbsp;&nbsp;&nbsp;&nbsp;This file is the actual game. It draws the window depending on the given command-line argument dimensions (or 558 x 528 if no dimensions were given) and handles the gameplay, including the movement of the taxi and all other cars and pedestrians. It also detects collisions between the taxi and the other cars or pedestrians to determine when the game is over, and plays a simple "song" randomly generated using Pygame Zero's built-in tone generator. Finally, it gives the player the option to read the rules before the game starts and restart it once it's over.
 
 ## Sources:
 
-I created the images using [Piskel](https://www.piskelapp.com/), an [open source](https://github.com/piskelapp/piskel) sprite editor.  
-Sources that helped me create the project:  
-https://pygame-zero.readthedocs.io/en/stable/  
+I created the images using [Piskel](https://www.piskelapp.com/), an [open source](https://github.com/piskelapp/piskel) sprite editor.
+
+Sources that helped me create the project:
+
+https://pygame-zero.readthedocs.io/en/stable/
+
 &nbsp;&nbsp;&nbsp;&nbsp;The Pygame Zero documentation was very helpful during the creation of this game.
 
 ## Author:
 
-Zachary Muranaka  
-&nbsp;&nbsp;&nbsp;&nbsp;zmuranaka@gmail.com  
-&nbsp;&nbsp;&nbsp;&nbsp;https://zmuranaka.github.io
+Zachary Muranaka
+&nbsp;&nbsp;&nbsp;&nbsp;zmuranaka@gmail.com
+&nbsp;&nbsp;&nbsp;&nbsp;https://zmuranaka.dev
